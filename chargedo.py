@@ -8,7 +8,7 @@ import datetime
 now = datetime.datetime.now()
 url = "https://api.odcloud.kr/api/EvInfoServiceV2/v1/getEvSearchList" 
 params = {} # dictionary 자료형
-params['serviceKey'] ="3RJiQ2qjq2JIZVrCFXK1dKOqOeQqjq21YEN/aO7D1o9wr4D/mcWuAPQQ57HV/VZMxZodnng1Su5jDJCcbVMtvg=="
+params['serviceKey'] ="inS3Dn7Q75VBXa6RLh+xiXAPL/y2OJo7OdynLc9LsQUXVeQh7FNSiTqq7omfYJKEjU0xGIjEL1TkiCySCjLLsg=="
 params['page'] = 1   # (optional) default 1
 params['perPage'] = 12   # (optional) default 10
 params['returnType'] = 'JSON' 
@@ -90,7 +90,7 @@ else:
 '''
 url = "http://openapi.kepco.co.kr/service/EvInfoServiceV2/getEvSearchList" 
 params = {} # dictionary 자료형
-params['serviceKey'] ="3RJiQ2qjq2JIZVrCFXK1dKOqOeQqjq21YEN%2FaO7D1o9wr4D%2FmcWuAPQQ57HV%2FVZMxZodnng1Su5jDJCcbVMtvg%3D%3D"
+params['serviceKey'] ="inS3Dn7Q75VBXa6RLh%2BxiXAPL%2Fy2OJo7OdynLc9LsQUXVeQh7FNSiTqq7omfYJKEjU0xGIjEL1TkiCySCjLLsg%3D%3D"
 params['pageNo'] = 1   # (optional) default 1
 params['numOfRows'] = 10   # (optional) default 10
 params['addr'] = '전라남도 나주시 빛가람동 120'
